@@ -49,8 +49,7 @@ function popUp(f,l){
         l.bindPopup(out.join("<br />"));
     }
 }
-<!--var jsonTest = new L.GeoJSON.AJAX(["colleges.geojson","counties.geojson"],{onEachFeature:popUp}).addTo(m);/>
-var jsonTest = new L.GeoJSON.AJAX(["../GisData/VotingPrecincts.geojson","counties.geojson"],{onEachFeature:popUp}).addTo(m);
+var jsonTest = new L.GeoJSON.AJAX(["VotingPrecincts.geojson","counties.geojson"],{onEachFeature:popUp}).addTo(m);
 </script>
        
         
